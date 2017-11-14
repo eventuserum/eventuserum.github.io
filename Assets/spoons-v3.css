@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* Theme Name: Spoons (v3.0)
+ * Theme URI: N/A
+ * Description: Theme for eventuserum.com; Michelangelo Sosa, Web Designer, Web Developer and Computer Programmer.
+ * Version: 3.0
+ * Author: Michelangelo Sosa
+ * Author URI: http://www.eventuserum.com
+ * Tags: Web, Developer, Designer, Java, Applications, Web Applications, Web Design
+ *
+ *  http://www.eventuserum.com
+ *
+ * Font Families: Libre Baskerville, Open Sans, sans-serif, serif
+*/
+
+* {
+  text-rendering: optimizeLegibility;
+  font-family: 'Libre Baskerville', serif;
+}
+body {
+  color: #382f29;
+}
+/*Navigation*/
