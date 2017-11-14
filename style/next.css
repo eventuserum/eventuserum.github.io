@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+/* Theme Name: Spoons (v1.0)
+ * Theme URI: Eventuserum -- Project Spoons (Alpha)
+ * Description: Theme for Michelangelo,
+ * Version: 1.0
+ * Author: Michelangelo Sosa
+ * Author URI: TBA
+ * Tags: Designer, Photo, music, Kris Garcia, Sage of Seers, sage, of, seers, print, professional, photoshop, illustrator, indesign, graphic, designer;
+ *
+ *  http://eventuserum.github.io
+ *
+ * This theme was designed and built by Michelangelo
+ * Font Families: Libre Baskerville, Open Sans, Arial, sans-serif;
+ * Font-family: 'Libre Baskerville', serif;
+ * font-family: 'Libre Baskerville', serif;
+ * font-family: 'Open Sans', sans-serif;
+ * Credit to https://necolas.github.io/normalize.css/ for normalize: .css;
+*/
+* {
+    text-rendering: optimizeLegibility;
+}
+body {
+  margin: 0;
+  font-family: 'Libre-Baskerville', serif;
+  height: 100%;
+}
+#header {
+  width: 100%;
+  height: 10%;
+  display: block;
+  background-color: #e4e4e4;
+  box-shadow: 2px 0px 8px #e9e9e9;
+  text-align: center;
+}
+#header > img {
+    margin: 0 1%;
+    vertical-align: middle;
+}
+#header-title {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+#hero {
+  background-image: url(https://images.unsplash.com/photo-1437419764061-2473afe69fc2?auto=format&fit=crop&w=2980&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+  background-size: cover;
+  height: 60vh;
+  text-align: left;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#hero-text {
+    color: white;
+}
+#hero-text > h1 {
+    margin: 0;
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+#header-button {
+  background-color: #e1e1e1;
+  color: #452f27;
+}
+#header-button:hover {
+  color: #ff4d4d;;
+  border-color: #ff4d4d;
+}
+/*#hero-text > button {
+    padding: .7rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #e4e4e4;
+    color: #4e4e4e;
+    font-size: large;
+    font-weight: 700;
+    transition: ease-in-out 0.1s;
+}
+#hero-text > button:hover {
+    cursor: pointer;
+    color: red;
+    box-shadow: 0 0 8px #e4e4e4;
+}/*
+/* Card */
+/*
+#wrapper {
+  margin: 0 12.5%;
+  width: 75%;
+}
+.project-card {
+  background-color: #e4e4e4;
+  height: auto;
+  border-radius: 10px;
+}
+.project-card > h3, h5 {
+  display: block;
+  text-align: left;
+  margin-left: 2.5%;;
+}
+.project-card > h3 {
+  font-family: "Libre Baskerville",serif;
+  padding-top: 2.5%
+}
+.project-card > h5 {
+  font-family: "Open Sans",serif;
+}
+.card-image {
+  width: 70%;
+  display: inline-block;
+  margin-left: 2.5%;
+  padding: 7rem 0;
+  position: relative;
+  vertical-align: top;
+  /* background-color: blue;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px #9e9e9e;
+}
+.card-text {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  text-align: left;
+  margin: 0 2.5%;
+  font-family: 'Open Sans', serif;
+}
+#card-wrapper {
+  font-family: "Open Sans", serif;
+  padding: 1rem;
+  overflow-x: hidden;
+}
+.card-expansion {
+  text-align: right;
+}
+.card-uses {
+  width: 75%;
+  display: block;
+  margin-left: 2.5%;
+  /* background-color: blue;
+  border-radius: 10px;
+  text-align: left;
+  height: 90px;
+  overflow: hidden;
+}
+.card-uses > button {
+  text-align: right;
+}
+.selector-title {
+  font-family: 'Libre Baskerville', serif;
+}
+.used-item {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px 10px;
+}
+.card-expansion > button {
+  border-radius: 0 0 10px 0;
+  border: none;
+  font-family: 'Open Sans', serif;
+  background-color: inherit;
+  transition: 0.5s;
+}
+.card-expansion > button:hover {
+  background-color: #b1b1b1;
+  cursor: pointer;
+} */
+/* Footer */
+#footer {
+  height: 50px;
+  width: 100%;
+  /* position: absolute; */
+  bottom: 0;
+  margin: 2rem 0 2px 0;
+  text-align: center;
+}
+.skeptics {
+  width: 25%;
+  height: 100%;
+  display: inline-block;
+  margin: 0 2.5%;
+  vertical-align: middle;
+  text-align: center;
+  text-align: -webkit-center;
+}
+#footer-logo {
+  background-image: url(https://lh3.googleusercontent.com/6wYOmMXIerxF4LluEuiqeNhviMpncZMuABNbZOcs6IYH_am8086NWxX9dwF0yLcyrEygkbsHJDoOuK3oxqTWJ03hnZXwXN_xincW13pMHOZPTiTpe0VPsYWBhT3NMxUUMzpG6HarF2uDuvC2Kqtm1mLiOMGzaGrQyVNTaYIlhbDc3oaN9nv7GR5dKz0HrRoXdIi6zE6WQhPES8q1D5rlmdV7bRnMacRlW3Y7ePbeNEyG2y3wtOuHLYAJleVk1zYB5VmBZZTZxSwtR3c6nH653zpddLyfrfQVdLyK7gVR0cY-aZuuoFfuCZ5EixH1ryvaCAlMXGntIrhEPX6H210ikwoODPTcpPhkaosr75reli13dsyFvucvNxZrpBEzJHHu19jzi85pDX777r0nS_Fz-zWHLJMIQhrC6D4tS5Sn2LXxvisEXLSZUECWdzAoVpBLX0NedGGMeL2hpA9hEjHn1yN3B5YVMDz9eSDNvMU7bEcxTTf23pCd7gUBpe9a3ZKEQmTQKG2GnTsmyJnzd9wGEAKQoBw42yvH-W-C7wrJcXIs1bNKm5ePEl9wUA8=w200-h150-p-k-nu);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align:center;
+}
+#nothing-footer > p {
+  display: table;
+  font-family: "Open Sans", serif;
+  font-size: small;
+}
+.footer-social {
+  border-radius: 30px;
+  height: 3rem;
+  width: 3rem;
+  display: inline-block;
+  margin: 0.2rem;
+  transition: 0.5s;
+}
+.footer-social:hover {
+  box-shadow: 0 0 5px 10px #999999;
+}
+#github {
+  background-image:url(https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#behance {
+  background-image:url(https://cdn1.iconfinder.com/data/icons/social-networks-3/512/behance-512.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: none;
+}
+#linkedin {
+  background-image:url(https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-512.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.button {
+  display: inline-block;
+  padding: 1rem;
+  vertical-align: bottom;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  color: #999999;
+  transition: 0.5s;
+}
+.button:hover {
+  color: #ff4d4d;;
+  border-color: #ff4d4d;
+}
