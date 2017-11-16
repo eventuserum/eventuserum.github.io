@@ -6,6 +6,13 @@
 #stxmoc {
   background-image: url(http://stxmobileoilchange.com/wp-content/uploads/2015/11/2-White-Truck.jpg);
 }
+/*Kris Garcia*/
+#graphic-collaboration {
+  background-image: url(http://krisgarcia.com/pictures/Kris-header.jpg);
+}
+#scs-concepts {
+  background-image:url(http://scsconcepts.com/images/ir_motion2.png);
+}
 /* Card*/
 .blog-container {
   background: #fff;
@@ -69,6 +76,7 @@
   background-color: #eeeeee;
   box-shadow: 0 0 10px 10px #eeeeee;
   color: #333;
+  border-radius: 15px;
 }
 
 .blog-summary p {
@@ -179,4 +187,16 @@
 .icon-star:hover,
 .icon-bubble:hover {
   fill: #ff4d4d;
+}
+/*Arrows*/
+i {
+    border: solid #999999;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
 }
