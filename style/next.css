@@ -6,7 +6,7 @@
  * Version: 1.0
  * Author: Michelangelo Sosa
  * Author URI: TBA
- * Tags: 
+ * Tags: Designer, Photo, music, Kris Garcia, Sage of Seers, sage, of, seers, print, professional, photoshop, illustrator, indesign, graphic, designer;
  *
  *  http://eventuserum.github.io
  *
@@ -248,4 +248,23 @@ body {
   position: absolute;
   right: 2%;
   top: 1%;
+}
+#my-projects {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background-color: white;
+  opacity: 0.3;
+  z-index: 1;
+}
+#my-projects-overlay {
+  height: 10%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: white;
 }
