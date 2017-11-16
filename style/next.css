@@ -244,3 +244,8 @@ body {
   border-color: #ff4d4d;
   box-shadow: 0 0 5px 0;
 }
+#contact {
+  position: absolute;
+  right: 2%;
+  top: 1%;
+}
