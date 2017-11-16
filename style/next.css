@@ -45,7 +45,7 @@ body {
 #hero {
   background-image: url(https://images.unsplash.com/photo-1484417894907-623942c8ee29);
   background-size: cover;
-  height: 60vh;
+  height: 90vh;
   text-align: left;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -59,6 +59,9 @@ body {
 }
 #hero-text {
     color: white;
+    position: absolute;
+    left: 10%;
+
 }
 #hero-text > h1 {
     margin: 0;
@@ -70,7 +73,7 @@ body {
   color: #452f27;
 }
 #header-button:hover {
-  color: #ff4d4d;;
+  color: #ff4d4d;
   border-color: #ff4d4d;
 }
 /*#hero-text > button {
@@ -239,4 +242,5 @@ body {
 .button:hover {
   color: #ff4d4d;;
   border-color: #ff4d4d;
+  box-shadow: 0 0 5px 0;
 }
